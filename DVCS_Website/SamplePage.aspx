@@ -2,4 +2,5 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <h1>My name is Nneka</h1>
+    <asp:Label ID="Label1" runat="server" Text="Select a name: "></asp:Label>
 </asp:Content>
