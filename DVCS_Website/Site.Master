@@ -53,7 +53,10 @@
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/SamplePage.aspx">Sample</a></li>
-                        <li><a runat="server" href="~/SecondPage/Nneka.aspx">Nneka</a></li>
+                        <ul> <a runat="server" href="SecondPage/">SecondPage/</a>
+                            <li><a runat="server" href="~/SecondPage/Nneka.aspx">Nneka</a></li>
+                        </ul>
+                        
                        
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
